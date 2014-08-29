@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/one"
+        	android:textSize="50px" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:textSize="50px" />
+
+         <EditText
+             android:id="@+id/username"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"         
+             android:textSize="50px" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            
+           android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:textSize="50px" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="50px" />
+
+    </LinearLayout>
+       
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:textSize="50px" />
+
+        <RadioGroup
+            android:id="@+id/choose"
+
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+           >
+        <RadioButton
+            android:id="@+id/choose1"
+            android:text="男"
+            android:textSize="50px"
+            android:checked="true"
+           />
+        <RadioButton
+            android:id="@+id/choose2"
+            android:text="女"
+            android:textSize="50px"
+           />
+        </RadioGroup>
+	</LinearLayout>
+	      
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="注册"
+            android:textSize="50px" />
+
+	</LinearLayout>
+
+
+</LinearLayout>

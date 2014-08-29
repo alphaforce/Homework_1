@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">注册信息</string>
+    <string name="action_settings">点我没用</string>
+    <string name="one">请输入注册信息</string>
+    <string name="two">用户名:</string>
+	<string name="three">密     码:</string>
+	<string name="four">性     别:</string>
+	<string name="button">注册:</string>
+	<string name="app_name2">注册成功</string>
+</resources>
