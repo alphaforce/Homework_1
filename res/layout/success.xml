@@ -16,12 +16,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="您的用户名为：" 
-            android:textSize="50px"/>
+            android:textSize="20sp"/>
         <TextView
             android:id="@+id/name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="50px"
+            android:textSize="20sp"
           />
 
     </LinearLayout>
@@ -40,12 +40,12 @@
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:text="您的密码为：" 
-        	android:textSize="50px"/>
+        	android:textSize="20sp"/>
          <TextView
             android:id="@+id/key"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="50px"
+            android:textSize="20sp"
           />
     </LinearLayout>
 
@@ -61,12 +61,12 @@
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:text="您的性别为："
-        	android:textSize="50px" />
+        	android:textSize="20sp" />
         <TextView
             android:id="@+id/sex"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="50px"
+            android:textSize="20sp"
           />
     </LinearLayout>
     

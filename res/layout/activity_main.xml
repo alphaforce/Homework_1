@@ -13,7 +13,7 @@
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:text="@string/one"
-        	android:textSize="50px" />
+        	android:textSize="20sp" />
     </LinearLayout>
     
     <LinearLayout
@@ -25,13 +25,13 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/two"
-            android:textSize="50px" />
+            android:textSize="20sp" />
 
          <EditText
              android:id="@+id/username"
              android:layout_width="fill_parent"
              android:layout_height="wrap_content"         
-             android:textSize="50px" />
+             android:textSize="20sp" />
         
     </LinearLayout>
     
@@ -45,14 +45,14 @@
            android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/three"
-            android:textSize="50px" />
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:textSize="50px" />
+            android:textSize="20sp" />
 
     </LinearLayout>
        
@@ -65,7 +65,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="@string/four"
-            android:textSize="50px" />
+            android:textSize="20sp" />
 
         <RadioGroup
             android:id="@+id/choose"
@@ -78,13 +78,13 @@
         <RadioButton
             android:id="@+id/choose1"
             android:text="男"
-            android:textSize="50px"
+            android:textSize="20sp"
             android:checked="true"
            />
         <RadioButton
             android:id="@+id/choose2"
             android:text="女"
-            android:textSize="50px"
+            android:textSize="20sp"
            />
         </RadioGroup>
 	</LinearLayout>
@@ -101,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="注册"
-            android:textSize="50px" />
+            android:textSize="20sp" />
 
 	</LinearLayout>
 
